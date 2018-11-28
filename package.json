@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "cf3cd90a-aac5-4dd4-8125-bad2b229cc58",
+    "appType": "clockface",
+    "appDisplayName": "AND v2",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#009688",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location",
+      "run_background",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "AND v2"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}

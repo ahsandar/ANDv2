@@ -1,0 +1,68 @@
+<svg id="root">
+  
+ 
+  <rect id="background" /> 
+
+  <g id="hr"> 
+    <text id="hr-count" class="count sideCount">56</text>
+    <image id="hr-icon-systole" class="icon" href="stat_hr_solid_24px.png" />
+    <image id="hr-icon-diastole" class="icon" href="stat_hr_solid_24px.png" />
+    <g>
+      <text id="hr-resting" class="count sideCount">56</text>
+       <text id="hr-zone" class="count sideCount">56</text>
+      </g>
+  </g> 
+  
+  <g id="bm">
+    <text id="bmr-zone">259</text>
+    <text id="bmi-zone">259</text>
+   
+   </g>
+  
+  <g id="barometer">
+     <text id="barom-zone">100.0 KPa</text>
+    <image id="barom-icon" href="reading_barometer_42px.png" />
+  </g>
+ 
+  <g id="steps">
+    <text class="count">777</text>
+    <image  class="icon" href="stat_steps_solid_24px.png" />
+  </g>
+  <g id="distance">   
+    <text class="count">777</text>
+    <image id="distance-icon" class="icon" href="stat_dist_solid_24px.png" />
+  </g>
+  <g id="elevationGain">  
+    <text class="count">777</text>
+    <image id="elevationGain-icon" class="icon" href="stat_floors_solid_24px.png" />
+  </g>
+  <g id="calories">  
+    <text class="count">777</text>
+    <image id="calories-icon" class="icon" href="stat_cals_solid_24px.png" />
+  </g> 
+  <g id="activeMinutes">
+   
+    <text class="count">777</text>
+    <image id="activeMinutes-icon" class="icon" href="stat_am_solid_24px.png" />
+  </g>
+  
+  <g>
+  <rect id="battery-line" x="0%" y="0%" width="100%" height="2%" fill="fb-white" />
+  </g>
+  
+  <g id="clock">
+  <text id="time"/>
+  </g>
+  
+  <text id="ionic-am-pm"/>
+  <text id="versa-am-pm"/>
+  <text id="second"/>
+ 
+  <g id="calendar">
+    <text id="day"/>
+    <text id="date"/>
+  </g>
+  
+  
+
+</svg>
