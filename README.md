@@ -1,3 +1,5 @@
+`Github` repo is a mirror of `Gitlab` repo
+
 Also check out AND v1 if you want activities with progress =>  `https://github.com/ahsandar/ANDv1`
 
 Power user mode and Minimal mode available
